@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2');
+
+*{
+
+    font-family:'Baloo 2', cursive;
+    color: blueviolet;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    
+    display: grid; font-display: 200px; font-size: large; font-weight: 600;
+    grid-template: repeat(12,1fr)/ repeat(12,1fr);
+    width: 75vmin;
+    height :75vmin;
+    background-color:blue,
+}
+
+.cell {
+    text-align: center;
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+    background-color:#2078DF;
+}
+
+.cell:not(.apple) {
+    border: 0.5px solid rgb(0, 174, 255);
+}
+
+.cell.snake {
+    background-color: greenyellow;
+}
+
+.cell.apple {
+    background-color: rgba(255, 0, 0, 0.713);
+    border-radius: 50%;
+    transform: scale(.8, .8);
+}
+
+.game-over {
+    color: rgb(135, 141, 250);
+    background-color: yellow;
+    border-radius: 0.2rem;
+    padding: .5rem;
+}
+
+button {
+    border-radius: .2rem;
+}
+
+#controls{
+    border: solid black 1px;
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+}
+
+button.up{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+button.down{
+    grid-row: 3/4;
+}
+
+button.right{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+button.left {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}

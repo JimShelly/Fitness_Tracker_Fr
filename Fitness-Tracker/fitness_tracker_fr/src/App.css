@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ody {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightcyan;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ .login, .register, .LOGOUT, .home, .profile {
+  list-style-type: georgian;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding: 15px;
+  background-color: steelblue;
+  margin: 15px;
+  border: 1.5px solid;
+  margin: 5px;
+  border: 1px solid;
+  font-style: oblique;
+  font-weight: 600;
+}
+
+header
+main,
+nav,
+aside {
+  padding: 1em;
+}
+ 
+h1 {
+  padding: 10px;
+  background-color: steelblue;
+  font-weight: 600;
+}
+
+h2 {
+  background-color: steelblue;
+  font-weight: 300;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.col {
+  flex: 8;
+}
+
+.row main {
+  min-height: 70vh;
+}
+
+.row {
+  display : flex;
+  flex-direction: row;
+}
+
+.row aside {
+  display: flex;
+  flex: 1;
+  background-color: blueviolet
+ 
+
+}
+
+header,
+footer {
+  height:15vh
+}
